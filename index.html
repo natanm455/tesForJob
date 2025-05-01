@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Min Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="container">
+        <div class="nav-content">
+          <div class="logo">Portfolio</div>
+          <ul class="nav-links">
+            <li><a href="#home" class="active">Hjem</a></li>
+            <li><a href="#about">Om meg</a></li>
+            <li><a href="#experience">Erfaring</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="fade-in">Velkommen til min portfolio</h1>
+          <p class="fade-in-delay">IT-konsulent & Utvikler</p>
+          <a href="#contact" class="cta-button fade-in-delay-2">Ta kontakt</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>Om meg</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>Jeg er en engasjert IT-profesjonell med erfaring innen IT-drift og utvikling. Min reise i teknologibransjen har gitt meg et bredt kompetansefelt og et solid grunnlag innen IT-infrastruktur og programvareutvikling.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="experience">
+      <div class="container">
+        <h2>Arbeidserfaring</h2>
+        <div class="timeline">
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-content">
+              <h3>IT-konsulent</h3>
+              <p class="date">August 2024 - Nåværende</p>
+              <p>Jobber som IT-konsulent med fokus på tekniske løsninger og rådgivning.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-content">
+              <h3>Lærling, IT-driftsfaget</h3>
+              <p class="date">August 2022 - August 2024</p>
+              <p>Fullførte læretid i IT-drift med praktisk erfaring innen infrastrukturforvaltning og systemadministrasjon.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item" data-aos="fade-up">
+            <div class="timeline-content">
+              <h3>Støttekontakt</h3>
+              <p class="date">Januar 2024 - August 2024</p>
+              <p>Arbeidet som støttekontakt med fokus på mellommenneskelige relasjoner og kommunikasjon.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Kontakt meg</h2>
+        <div class="contact-content">
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name">Navn</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">E-post</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Melding</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send melding</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Min Portfolio. Alle rettigheter reservert.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
